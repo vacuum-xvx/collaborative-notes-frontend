@@ -5,7 +5,6 @@ import {
   Typography,
   Paper,
   Grid,
-  Link,
   Chip,
   Avatar,
   Card,
@@ -72,7 +71,7 @@ const Credits: React.FC = () => {
           icon={<PeopleIcon />}
           label="Сделано Бригадой 2"
           color="primary"
-          size="large"
+          size="medium"
           sx={{
             fontSize: '1.1rem',
             py: 3,
