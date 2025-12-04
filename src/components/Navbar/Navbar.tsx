@@ -20,6 +20,7 @@ import {
   Logout as LogoutIcon,
   Person as PersonIcon,
   Dashboard as DashboardIcon,
+  Info as InfoIcon,
 } from '@mui/icons-material'
 
 import { RootState } from '../../store/store'
@@ -88,6 +89,16 @@ const Navbar: React.FC = () => {
               onClick={() => navigate('/dashboard')}
             >
               <DashboardIcon />
+            </IconButton>
+          </Tooltip>
+
+          {/* Кнопка Credits */}
+          <Tooltip title="О команде">
+            <IconButton
+              color={isActive('/credits') ? 'secondary' : 'inherit'}
+              onClick={() => navigate('/credits')}
+            >
+              <InfoIcon />
             </IconButton>
           </Tooltip>
 

@@ -4,12 +4,14 @@ import { Box } from '@mui/material'
 
 import { RootState } from './store/store'
 import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 import Dashboard from './pages/Dashboard/Dashboard'
 import NoteEditor from './pages/NoteEditor/NoteEditor'
 import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
 import Profile from './pages/Profile/Profile'
 import SharedNote from './pages/SharedNote/SharedNote'
+import Credits from './pages/Credits/Credits'
 
 function App() {
   const { user } = useSelector((state: RootState) => state.auth)
@@ -44,6 +46,10 @@ function App() {
             path="/profile"
             element={user ? <Profile /> : <Navigate to="/login" />}
           />
+          <Route
+            path="/credits"
+            element={<Credits />}
+          />
 
           {/* Перенаправления */}
           <Route
@@ -56,6 +62,9 @@ function App() {
           />
         </Routes>
       </Box>
+
+      {/* Footer для всех страниц */}
+      <Footer />
     </Box>
   )
 }
