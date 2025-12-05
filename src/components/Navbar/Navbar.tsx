@@ -20,7 +20,6 @@ import {
   Logout as LogoutIcon,
   Person as PersonIcon,
   Dashboard as DashboardIcon,
-  Info as InfoIcon,
 } from '@mui/icons-material'
 
 import { RootState } from '../../store/store'
@@ -49,7 +48,6 @@ const Navbar: React.FC = () => {
   }
 
   const handleCreateNote = () => {
-    // Здесь будет логика создания новой заметки
     navigate('/note/new')
   }
 
@@ -68,11 +66,10 @@ const Navbar: React.FC = () => {
           }}
           onClick={() => navigate('/dashboard')}
         >
-          Совместные Конспекты
+          Collaborative Notes
         </Typography>
 
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-          {/* Кнопка создания новой заметки */}
           <Tooltip title="Создать заметку">
             <IconButton
               color="inherit"
@@ -82,7 +79,6 @@ const Navbar: React.FC = () => {
             </IconButton>
           </Tooltip>
 
-          {/* Кнопка дашборда */}
           <Tooltip title="Дашборд">
             <IconButton
               color={isActive('/dashboard') ? 'secondary' : 'inherit'}
@@ -92,17 +88,6 @@ const Navbar: React.FC = () => {
             </IconButton>
           </Tooltip>
 
-          {/* Кнопка Credits */}
-          <Tooltip title="О команде">
-            <IconButton
-              color={isActive('/credits') ? 'secondary' : 'inherit'}
-              onClick={() => navigate('/credits')}
-            >
-              <InfoIcon />
-            </IconButton>
-          </Tooltip>
-
-          {/* Уведомления */}
           <Tooltip title="Уведомления">
             <IconButton color="inherit">
               <Badge badgeContent={3} color="secondary">
@@ -111,7 +96,6 @@ const Navbar: React.FC = () => {
             </IconButton>
           </Tooltip>
 
-          {/* Профиль пользователя */}
           <Tooltip title="Профиль">
             <IconButton
               size="large"
@@ -158,3 +142,4 @@ const Navbar: React.FC = () => {
 }
 
 export default Navbar
+

@@ -11,7 +11,6 @@ import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
 import Profile from './pages/Profile/Profile'
 import SharedNote from './pages/SharedNote/SharedNote'
-import Credits from './pages/Credits/Credits'
 
 function App() {
   const { user } = useSelector((state: RootState) => state.auth)
@@ -46,10 +45,6 @@ function App() {
             path="/profile"
             element={user ? <Profile /> : <Navigate to="/login" />}
           />
-          <Route
-            path="/credits"
-            element={<Credits />}
-          />
 
           {/* Перенаправления */}
           <Route
@@ -70,3 +65,4 @@ function App() {
 }
 
 export default App
+

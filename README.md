@@ -1,7 +1,6 @@
 # 📝 Collaborative Notes - Frontend
 
 > **Платформа для совместного создания конспектов**  
-> **🚀 Разработано командой "Бригада 2"** 👨‍💻
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue)
@@ -11,7 +10,7 @@
 
 ## 🎯 О проекте
 
-**Collaborative Notes Platform** — это современная платформа для создания, редактирования и совместного использования конспектов в режиме реального времени. Проект демонстрирует навыки команды **"Бригада 2"** в области full-stack разработки с использованием передовых технологий.
+**Collaborative Notes Platform** — это современная платформа для создания, редактирования и совместного использования конспектов в режиме реального времени.
 
 ## ✨ Ключевые возможности
 
@@ -47,7 +46,7 @@
 - **Socket.IO Client** для real-time соединения
 - **Vite** для быстрой сборки и разработки
 
-### 🚀 Backend ([отдельный репозиторий](https://github.com/vacuum-xvx/collaborative-notes-backend))
+### 🚀 Backend
 - **Node.js + Express** REST API сервер
 - **Socket.IO** для real-time collaboration
 - **MongoDB + Mongoose** для хранения данных
@@ -94,7 +93,7 @@
 
 1. **Клонируйте репозиторий**
    ```bash
-   git clone https://github.com/vacuum-xvx/collaborative-notes-frontend.git
+   git clone <repository-url>
    cd collaborative-notes-frontend
    ```
 
@@ -115,7 +114,7 @@
 
 1. **Клонируйте backend репозиторий**
    ```bash
-   git clone https://github.com/vacuum-xvx/collaborative-notes-backend.git
+   git clone <backend-repository-url>
    cd collaborative-notes-backend
    ```
 
@@ -201,31 +200,10 @@ VITE_WEBSOCKET_URL=ws://localhost:5000
 4. Отправьте ветку (`git push origin feature/AmazingFeature`)
 5. Откройте Pull Request
 
-## 👥 Команда разработки
-
-### 🚀 Бригада 2
-
-Мы - команда талантливых разработчиков полного цикла, специализирующихся на создании современных веб-приложений с использованием передовых технологий.
-
-**Наша экспертиза:**
-- 🎨 **Frontend**: React, TypeScript, современные UI фреймворки
-- 🚀 **Backend**: Node.js, Express, API design
-- 🗄️ **Database**: MongoDB, PostgreSQL, оптимизация запросов  
-- 🔄 **DevOps**: CI/CD, облачные платформы, контейнеризация
-- 🤝 **Collaboration**: Agile, Git workflow, code review
-
-**Контакты:**
-- 📧 **Email**: [dev@brigade2.team](mailto:dev@brigade2.team)
-- 🐙 **GitHub**: [vacuum-xvx](https://github.com/vacuum-xvx)
-- 💼 **LinkedIn**: [Бригада 2](https://linkedin.com/company/brigade2)
-
 ## 🌟 Демо и ссылки
 
 - 🌐 **Live Demo**: [collaborative-notes.vercel.app](https://collaborative-notes-frontend.vercel.app)
-- 🐙 **Frontend Repo**: [GitHub](https://github.com/vacuum-xvx/collaborative-notes-frontend)
-- 🚀 **Backend Repo**: [GitHub](https://github.com/vacuum-xvx/collaborative-notes-backend)
-- 📖 **API Docs**: [Документация API](https://collaborative-notes-api.railway.app/api-docs)
-- 📱 **Figma Design**: [UI/UX Макеты](https://figma.com/collaborative-notes)
+- 📖 **API Docs**: Документация API
 
 ## 🏆 Особенности проекта
 
@@ -260,12 +238,6 @@ VITE_WEBSOCKET_URL=ws://localhost:5000
 
 <div align="center">
 
-### 🎉 Сделано с ❤️ командой **Бригада 2**
-
-*Превращаем идеи в код, код в продукты, продукты в успех*
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vacuum-xvx)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev@brigade2.team)
+**Collaborative Notes Platform** - современное решение для совместной работы с документами.
 
 </div>

@@ -140,24 +140,6 @@ const Dashboard: React.FC = () => {
         <Typography variant="body1" color="text.secondary">
           Управляйте своими заметками и совместными проектами
         </Typography>
-
-        {/* Информация о команде */}
-        <Box
-          sx={{
-            mt: 3,
-            p: 2,
-            bgcolor: 'primary.main',
-            color: 'white',
-            borderRadius: 2,
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
-          }}
-        >
-          <Typography variant="body2" sx={{ display: 'flex', alignItems: 'center' }}>
-            <PeopleIcon sx={{ mr: 1, fontSize: '1.2rem' }} />
-            Добро пожаловать в Collaborative Notes Platform!
-            Сделано с ❤️ командой <strong>Бригада 2</strong>
-          </Typography>
-        </Box>
       </Box>
 
       <Box sx={{ mb: 4 }}>
